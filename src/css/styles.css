@@ -1,0 +1,33 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo-card img {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.unvisible {
+  display: none;
+}
