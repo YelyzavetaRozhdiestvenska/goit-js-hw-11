@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+.photo-link {
+  flex-basis: calc((100% - 60px) / 4);
+}
 
 .photo-card img {
   display: block;
